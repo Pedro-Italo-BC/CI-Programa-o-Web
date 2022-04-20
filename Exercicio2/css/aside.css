@@ -1,0 +1,151 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* First Section */
+
+#profile-Section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px ;
+  min-height: 292px;
+  padding: 35px 0;
+}
+
+#profile-Section > img {
+  clip-path: circle(50% at 50% 50%);
+  border: 2px solid #00FF00;
+  border-radius: 1in;
+}
+
+#profile-Section > div{
+text-align: center;
+}
+
+#profile-Section > div > h1{
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+/* Second section */
+
+#navSection{
+  display: flex;
+  min-height: 348px;
+  padding: 35px 0 35px 42px;
+
+}
+
+#navSection nav, ul{
+  height: 100%;
+}
+
+#navSection nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+#navSection nav ul li p{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+/* Third Section */
+
+#Technologies-Section{
+  min-height: 108px;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 35px 30px;
+  gap: 28px;
+  
+}
+
+#Known-Technologies{
+  width: 300px;
+}
+
+#Known-Technologies ul{
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+  
+  gap: 15px;
+
+}
+
+#Known-Technologies ul li{
+  height: 24px;
+  background-color: var(--bg-techs);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;  
+  flex: 1 0 86px;
+}
+
+#Known-Technologies ul li h2{
+  color:black;
+  font-weight: 700;
+}
+
+/* Fourth Section */
+
+#My-Experiences{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 35px 30px;
+  min-height: 108px;
+  gap: 30px;
+}
+
+#My-Experiences ul{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+#My-Experiences ul li {
+ list-style-type: disc;
+}
+
+#My-Experiences ul li p{
+  font-weight: lighter;
+}
+
+
+
+#Educations{
+  display: flex;
+  flex-direction: column;
+  padding: 35px 0 35px 30px;
+  min-height: 108px;
+  gap: 30px;
+}
+#Educations ul{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+#Educations ul li {
+ list-style-type: disc;
+}
+
+#Educations ul li p{
+  font-weight: lighter;
+}

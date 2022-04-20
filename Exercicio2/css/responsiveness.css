@@ -1,0 +1,70 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+@media(max-width:975px){
+  #container{
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  aside, main{
+    width: 100%;
+  }
+
+  #navSection{
+  justify-content: center;
+  padding: auto;
+  min-height: auto;
+  }
+
+  #navSection nav ul{
+    gap: 20px;
+  }
+
+
+  #Technologies-Section{
+    align-items: center;
+  }
+
+  #Technologies-Section h1{
+    margin-right: 26px ;
+    text-align: center;
+  }
+  
+
+  .Projects{
+    display: flex;
+    flex: 1 0 100%;
+    min-height:186px ;
+  }
+ 
+}
+
+@media (max-width:370px){
+  html{
+    font-size: 55%;
+  }
+}
+
+@media(max-width:340px){
+  html{
+    font-size: 53%;
+  }
+   
+  #Known-Technologies ul{
+    gap: 10px;
+  }
+   
+  #Known-Technologies ul li{
+    margin: 0 auto;
+    max-width: 100px;
+    
+  }
+
+  
+}
+
